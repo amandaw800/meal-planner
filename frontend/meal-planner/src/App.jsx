@@ -1,4 +1,4 @@
-import RecipePage from "../pages/RecipePage.jsx"
+import RecipeBook from "../pages/RecipeBook.jsx"
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -9,12 +9,12 @@ function App() {
     <>
       <BrowserRouter>
         <nav>
-          <Link to="/recipe">Recipe</Link>
+          <Link to="/recipe-books">Recipe Book</Link>
 
         </nav>
 
         <Routes>
-          <Route path="/recipe" element={<RecipePage />}></Route>
+          <Route path="/recipe-books" element={<RecipeBook />}></Route>
 
         </Routes>
 
